@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "967626370967",
+    "project_id": "healthy-care-system",
+    "storage_bucket": "healthy-care-system.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:967626370967:android:1373db85b18934cd275ed2",
+        "android_client_info": {
+          "package_name": "com.example.graduat"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSyjQdO9WzAhfa67zV9OZl93ZsoG3b4w8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
