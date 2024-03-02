@@ -44,11 +44,11 @@ class _LoginPatientState extends State<LoginPatient> {
                   ),
                   TextFilt(
                     controller: _nationalIdController,
-                    hintText: 'National ID',
+                    hintText: 'البريد الالكتروني',
                   ),
                   TextFilt(
                     controller: _passwordController,
-                    hintText: 'Password',
+                    hintText: 'الرقم السري',
                     isPassword: true,
                   ),
                   const SizedBox(
@@ -93,7 +93,7 @@ class _LoginPatientState extends State<LoginPatient> {
   void _signInWithEmailAndPassword() async {
     try {
       UserCredential userCredential = await _auth.signInWithEmailAndPassword(
-        email: _nationalIdController.text, // Using email as National ID
+        email: _nationalIdController.text, // Use email as the username
         password: _passwordController.text,
       );
 
@@ -107,4 +107,5 @@ class _LoginPatientState extends State<LoginPatient> {
       // TODO: Show an error message to the user
     }
   }
+
 }
