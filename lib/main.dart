@@ -26,7 +26,7 @@ class DoctorApp extends StatelessWidget {
       // home: loginDoctor(), //doctor views
       // home: loginAdmin(),      //admin views
       // home: loginlab(), //lab views
-      home: loginPatient(), //patient views
+      home: LoginPatient(), //patient views
     );
   }
 }
